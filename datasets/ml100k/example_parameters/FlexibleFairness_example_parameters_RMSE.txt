@@ -1,0 +1,16 @@
+D_steps:10:int
+batch_size:128:int
+data_dir:datasets:str
+embed_dim:10:int
+eval_ratio:0.1:float
+gamma:0:int
+logdir:logs/ml100k/FlexibleFairness/20231016-232753:str
+lr:0.01:float
+dataset:ml100k:str
+num_epochs:2:int
+num_random_items:1000:int
+seed:85841:int
+test_ratio:0.1:float
+top_k:20:int
+use_age_attr:True:bool
+use_cross_entropy:True:bool
