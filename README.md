@@ -60,7 +60,7 @@ python example_pipeline.py --dataset="ml100k" --num_epochs=10 --num_instances=5
 
 
 ## Diversity Tradeoff model
-implementation taken from `https://github.com/esilezz/accdiv-via-graphconv`
+implementation taken from https://github.com/esilezz/accdiv-via-graphconv
 The Diversity Tradeoff model can also be run on its own outside of the example pipeline.
 
 The parameters used by the Diversity Tradeoff model are as follows:
@@ -94,7 +94,7 @@ python run_DiversityTradeoff.py --dataset="ml100k" --batch_size=128 --features="
 
 
 ## Flexible Fairness / Compositional Fairness model
-implementation taken from `https://github.com/joeybose/Flexible-Fairness-Constraints`
+implementation taken from https://github.com/joeybose/Flexible-Fairness-Constraints
 The Flexible Fairness model can also be run on its own outside of the example pipeline.
 
 The parameters used by the Flexible Fairness / Compositional Fairness model are as follows:
