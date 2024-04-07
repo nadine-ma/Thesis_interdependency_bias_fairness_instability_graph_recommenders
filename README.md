@@ -14,25 +14,36 @@ The original datasets used in the thesis can be accessed here:
 ## Results
 The main finding of this thesis is the cross-dataset and cross-recommender model strong relationship between individual diversity and popularity bias in recommender results.
 This proves the existence of pronounced filter bubbles in the used datasets. A high individual diversity (each user being recommended a diverse selection of items) being related to a high level of popularity bias (more popular than unpopular items among the recommended items) indicates that there are thematically diverse filter bubbles, each containing a number of very popular items.
+Further and more in-depth results as well as additional case studies concerning the used recommender models can be found in the thesis document. The following only depicts a very brief excerpt of the thesis.
+
  
 Optimising on aggregated diversity or user fairness reduces the popularity bias of recommendation results while increasing the aggregated diversity, in comparison to the performance-optimised baseline..
+
 <img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/ad35f2bd-5de7-42d8-89d7-ce060c34889f" width="70%">
 
 Optimising on individual diversity decreases the aggregated diversity of recommendation results, while optimising on aggregated diversity or user fairness increases the level of aggregated diversity in recommendation results.
+
 <img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/b69ad743-ecbe-4cdf-877a-e557f40e3e6a" width="70%">
 
 Optimising on individual diversity only slightly increases the level of individual diversity in recommendation results, while optimising on aggregated diversity or user fairness decreases the level of individual diversity.
+
 <img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/6da111e5-7056-4e7d-a1ee-63733c469b42" width="70%">
 
 Optimising on either aggregated diversity or individual diversity increases the user unfairness in recommendation results, in comparison to the performance-optimised baseline. Optimising on user fairness decreases the user unfairness.
+
 <img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/b7f5541b-efb1-431e-b0b0-87ac51cd8beb" width="70%">
 
-While both used recommender models as well as the used datasets show differences regarding the levels of correlation between the analysed evaluation measures, they all show a very high, positive correlation between individual diversity (ID@20) and popularity bias (ARP@20) over all optimisation objectives.
+
+The following correlation matrices depict the correlations between all obtained evaluation measures of all different optimisation objectives per dataset:
+
+<img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/f5dc1b9e-d049-42b9-be5e-ad5be35060f7" width="70%">
+
+
+While both used recommender models as well as the used datasets show differences regarding the levels of correlation between the analysed evaluation measures (cf. thesis p.38), they all show a very high, positive correlation between individual diversity (ID@20) and popularity bias (ARP@20) over all optimisation objectives.
 
 <img src="https://github.com/nadine-ma/Thesis_interdependency_bias_fairness_instability_graph_recommenders/assets/72455501/f563f21d-3d0b-4604-be6c-d094d9a589ea" width="70%">
 
 
-Further and more in-depth results as well as additional case studies concerning the used recommender models can be found in the thesis document.
 
 
 
